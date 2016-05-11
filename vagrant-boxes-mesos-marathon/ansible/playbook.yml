@@ -39,8 +39,6 @@
         shell: sh /vagrant/installdns.sh
       - name: configure dns
         template: src=./resolv.conf.j2 dest=/etc/resolv.conf
-      - name: install outyet
-        shell: docker load --input=/vagrant/outyet.tar.gz
 
 - hosts: nodes
   remote_user: vagrant
@@ -63,5 +61,3 @@
         service: name=mesos-slave state=started enabled=yes
       - name: start docker
         service: name=docker state=started enabled=yes
-      - name: install outyet
-        shell: docker load --input=/vagrant/outyet.tar.gz
