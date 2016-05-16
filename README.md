@@ -1,14 +1,14 @@
-# Workshop Mesos y Marathon
-Taller para entender la forma en la que trabaja Mesos con Marathon y su despliegue con Docker.
+# Workshop Mesos and Marathon
+Workshop for learn how Mesos and Marathon work together and their deploy with Docker.
 
 
 
-*Mesos* es una herramienta de clusterización de software que proporciona un aislamiento eficaz de recursos y el intercambio entre aplicaciones y frameworks.
-*Marathon* es un framework para *Mesos* diseñado para lanzar aplicaciones de larga duración y ayuda en la orquestación de contenedores Docker.
+*Mesos* is a tool for software clusterization wich provides efficient resource isolation and sharing across distributed applications, or frameworks. 
+*Marathon* is a framework for *Mesos* that is designed to launch long-running applications.
 
 
 
-###### Algunos recursos útiles
+###### Some useful links
 [Mesos](https://mesosphere.com/)
 
 [Marathon](https://mesosphere.github.io/marathon/)
